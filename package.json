@@ -1,0 +1,28 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "This will be an ecommerce api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "ecommerce",
+    "node",
+    "js"
+  ],
+  "author": "@Ahuahuachi",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
